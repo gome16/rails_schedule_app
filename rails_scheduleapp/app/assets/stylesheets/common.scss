@@ -1,0 +1,43 @@
+body {
+  font-family: "Yu Gothic";
+  margin: 0;
+}
+
+.controller{
+  display: flex;
+}
+
+h1 {
+  background-color: #0e0e0e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+
+table th {
+  background-color: #c2c2c2;
+  padding: 10px 20px;
+}
+
+table td {
+  background-color: #c2c2c2;
+  padding: 10px 20px;
+}
+
+.memo {
+  background-color: #c2c2c2;
+  margin-top: 10px;
+  display: inline-grid
+  
+}
+
+.notice {
+  padding: 5px;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  width: 70%;
+}
