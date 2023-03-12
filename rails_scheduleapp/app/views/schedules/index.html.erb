@@ -1,5 +1,9 @@
 <h1>スケジュール一覧</h1>
 
+<% if flash[:notice] %>
+ <p class"notice"><%= flash[:notice] %></p> 
+<% end %>
+
 <table>
   <th>日付</th>
   <th><%= Date.today.to_s(:datetime_jp) %></th>

@@ -11,5 +11,5 @@ class Schedule < ApplicationRecord
   end
   
   validates :memo, 
-    length: {minimum: 1, maximum: 500}
+    length: {maximum: 500}
 end
